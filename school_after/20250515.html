@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hi { 
+            display: flex;
+            justify-content: center;
+            color: rgb(151, 58, 74);
+        }
+        .a {
+            background-color:rgb(252, 222, 252);
+            margin:20px; 
+            border: 3px solid rgb(172, 236, 255); 
+            font-family:'Arial', sans-serif; 
+            color: rgb(214, 75, 121);
+        }
+        .b { 
+            background-color:pink;
+            margin:20px; 
+            border:3px solid rgb(191, 130, 140);
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <bic class = "hi">
+        <h1>------ [회원가입] ------</h1>
+    </bic>
+    <form>
+        <div class = "a">
+            이름 :    <input type = "text" placeholder = "이름을 입력하시오"><br><br>
+            이메일 : <input type = "email" placeholder = "이메일을 입력하시오"><br><br>
+            아이디 :   <input type = "text" placeholder = "아이디를 입력하시오"><br><br>
+            비밀번호 : <input type = "password" placeholder = "비밀번호를 입력하시오"><br><br>
+            생년월일 : <input type = "text" placeholder = "0000/00/00"><br><br> 
+            <input type = "radio" name = "gender">남자
+            <input type = "radio" name = "gender">여자<br><br>
+            <h>좋아하는 음식 </h>
+            <select>
+                <option>밥</option>
+                <option>빵</option>
+                <option>라면</option>
+                <option>과일</option>
+                <option>음료</option>
+            </select><br><br>
+            자기소개 : <br>
+            <textarea></textarea>
+        </div>
+        <biv class = "b">
+            <input type = "submit" value="제출: 가입하기">
+            <h>..*^ㅁ^*..</h>
+            <input type = "reset" value="초기화"> 
+        </biv>
+    </form>
+</body>
+</html>
+
+<!--이름, 아이디, 비밀번호, 이메일, 생년월일
+성별 라디오버튼
+좋아하는음식 드롭다운
+자기소개 : 긴 텍스트 입력 <textarea>
+제출 : 가입하기-->
